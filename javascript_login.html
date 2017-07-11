@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<title>Javascript Login Form Validation</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- include css file here-->
+	<link rel="stylesheet" href="css/login.css" />
+
+	<!-- include javascript file here-->
+	<script src="js/login.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+  <h2>Javascript Login Form Validation</h2>
+<hr/>  
+  
+       <div class="form-group">
+      <label for="email">Email:</label></br>
+      <input type="email" class="form-control" placeholder="email" id="email">
+      </div>
+
+    <div class="form-group">
+      <label for="password">Password:</label><br/>
+      <input type="password" class="form-control" placeholder="password" id="password"/> <br/>
+    </div>
+<form>		
+<input type="button"  class="form-control btn btn-primary" value="Login" id="submit" onclick="validate()" />
+  </form>
+<span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">Email : admin@gmail.com<br/>Password : Kibbcom@123</b></span>
+</div>
+</body>
+
+</html>
